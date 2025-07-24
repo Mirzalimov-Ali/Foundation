@@ -1,0 +1,100 @@
+city,full_address,longitude,name,review_count,stars,state,type
+,"4734 Lebanon Church Rd Dravosburg, PA 15034",-79.9007057,Mr Hoagie,4,4.5,PA,business
+Dravosburg,"202 McClure St Dravosburg, PA 15034",-79.8868138,Clancy's Pub,,3.5,,
+Dravosburg,"1 Ravine St Dravosburg, PA 15034",-79.889059,Joe Cislo's Auto,3,5.0,,business
+Bethel Park,,-80.0146597,,5,3.5,,business
+Pittsburgh,"301 South Hills Village Pittsburgh, PA 15241",-80.05998,Verizon,,3.5,,
+rankin,"414 Hawkins Ave rankin, PA 15104",-79.8802474,Emil's Lounge,20,5.0,,business
+,"2101 Greentree Rd Ste B201 Pittsburgh, PA 15220",-80.0708968,Extreme Fitness 2,,2.5,,business
+Carnegie,"141 Hawthorne St Greentree Carnegie, PA 15106",-80.067534,Alexion's Bar & Grill,21,4.0,,business
+Carnegie,,,Flynn's Tire And Auto Service,,2.5,,
+Carnegie,"920 Forsythe Rd Carnegie Carnegie, PA 15106",-80.0762665,,4,2.0,,business
+,"8 Logan St Carnegie Carnegie, PA 15106",-80.0903575,Quaker State Construction,3,2.5,,
+Pittsburgh,"2080 Greentree Rd Pittsburgh, PA 15220",-80.0691338,Greentree Animal Clinic,5,4.0,,business
+Carnegie,"300 Beechwood Ave Carnegie Carnegie, PA 15106",-80.0858661,,,4.5,PA,business
+Carnegie,"1011 Washington Ave Carnegie, PA 15106",-80.0824517,Advance Auto Parts,3,2.0,,business
+,"2100 Washington Pike Carnegie, PA 15106",-80.0932152,Kings Family Restaurant,8,2.0,,business
+Carnegie,"2100 Washington Pike Carnegie, PA 15106",-80.0932152,Shop N' Save,,4.0,,
+Carnegie,,,Rossi Tailoring & Cleaners,3,3.0,,business
+Carnegie,,-80.089241,Heidelberg B P,4,3.0,,business
+Carnegie,"1201 Washington Ave Carnegie, PA 15106",-80.0849416,Rocky's Lounge,7,4.0,,business
+Carnegie,"1073 Washington Ave Carnegie, PA 15106",-80.0833859,Gab & Eat,58,4.5,,business
+Carnegie,"202 3rd Ave Carnegie Carnegie, PA 15106",-80.089985,Barb's Country Junction Cafe,,3.0,,business
+Carnegie,,-80.088557,Extended Stay America - Pittsburgh - Carnegie,7,3.5,,
+Carnegie,"215 E Main St Carnegie Carnegie, PA 15106",-80.085279,Paddy's Pour House,7,3.0,,business
+Carnegie,"231 E Main St Carnegie Carnegie, PA 15106",-80.0848871,Porto Fino Pizzaria & Gyro,4,3.0,,business
+Carnegie,"117 E Mall Plz Carnegie Carnegie, PA 15106",-80.0876046,Alteration World,10,4.5,,business
+Carnegie,"301 Noblestown Rd East Carnegie Carnegie, PA 15106",-80.0667012,Greentree Auto Body,3,2.5,,business
+Carnegie,"Raceway Plz Carnegie, PA 15106",-80.0937037,Long John Silver's,5,3.5,,business
+Carnegie,"2323 Greentree Rd Carnegie, PA 15106",-80.078657,"Weinberg Lisa, DMD",8,3.0,,business
+Carnegie,"214 E Main St Carnegie Carnegie, PA 15106",-80.0849615,Don Don Chinese Restaurant,9,2.5,,business
+Carnegie,"312 2nd Ave Carnegie Carnegie, PA 15106",-80.0904271,West Penn Dental Centers,4,4.0,,business
+Pittsburgh,"2180 Greentree Rd Pittsburgh, PA 15220",-80.073788,Denny's,9,4.0,,business
+Carnegie,"100 Roessler Rd Carnegie, PA 15106",-80.060154,Amerifit,6,3.0,,business
+Carnegie,"200 E Main St Carnegie Carnegie, PA 15106",-80.0851737,Papa J's,64,3.5,,business
+Pittsburgh,"300 Davis Blvd Etna Pittsburgh, PA 15275",-79.958717,Boston Market,3,2.5,,business
+Homestead,"820 Amity St Homestead Homestead, PA 15120",-79.9105266,Homestead Capri Pizza,3,3.5,,business
+Homestead,"270 W Bridge St Homestead Homestead, PA 15120",-79.916958,Starbucks,20,3.5,,business
+Homestead,"3619 Main St Homestead, PA 15120",-79.9036345,Randy's Beer Barrel Pub,3,2.5,,business
+Munhall,"660 Waterfront Dr E Homestead Munhall, PA 15120",-79.9037778,Michaels,8,3.0,,business
+Homestead,"138 W Bridge St Homestead Homestead, PA 15120",-79.9163491,Michaels,3,4.0,,business
+Munhall,,-79.9044562,Steak 'n Shake,48,2.0,,business
+Homestead,"280 Waterfront Dr E Homestead Homestead, PA 15120",-79.9124082,Filene's Basement,6,4.0,,business
+Homestead,"171 E Bridge St Homestead Homestead, PA 15120",-79.9152619,Sing Sing,30,3.5,,business
+Homestead,"101 E 7th Ave Homestead Homestead, PA 15120",-79.912788,Joe Dilorio's Auto Body Shop,10,4.5,,business
+Homestead,"690 Waterfront Dr E Homestead Homestead, PA 15120",-79.9016982,Lowe's Home Improvement,8,3.0,,business
+Homestead,"122 W 8th Ave Homestead Homestead, PA 15120",-79.912595,Duke's Upper Deck Cafe,26,3.5,,business
+Homestead,"180 E Waterfront Dr Homestead Homestead, PA 15120",-79.9141865,Dave & Buster's,85,2.5,,business
+Homestead,"3804 Main St Homestead, PA 15120",-79.904493,Paw's In the Family Pet Grooming,3,5.0,,business
+Homestead,"610 William Marks Way Homestead Homestead, PA 15120",,Wendy's,5,2.0,,business
+Homestead,"2615 Main St Homestead, PA 15120",-79.9000102,Italian Village Pizza,4,2.5,PA,business
+Homestead,"171 E Bridge St Homestead Homestead, PA 15120",-79.9152619,,124,3.5,PA,business
+Homestead,"1415 West St Homestead Homestead, PA 15120",-79.9069188,,3,3.5,,business
+Homestead,,-79.9148477,Improv Comedy Club,40,3.0,,business
+Homestead,"420 Waterfront Dr E Homestead Homestead, PA 15120",-79.908469,Giant Eagle,31,3.5,,business
+Homestead,"100 W Bridge St Homestead Homestead, PA 15120",-79.918751,Barnes & Noble Booksellers,17,3.5,,business
+West Homestead,"244 W Bridge St Homestead West Homestead, PA 15120",-79.917508,Bar Louie,74,2.5,,business
+Homestead,"1000 Sandcastle Dr Hays Homestead, PA 15120",-79.9337369,Sandcastle Water Park,16,3.0,,business
+Homestead,"401 E 8th Ave Homestead Homestead, PA 15120",-79.9073564,Michaels,3,5.0,,business
+Homestead,"207 E 16th Ave Apt 1 Homestead Homestead, PA 15120",-79.904308,First Class Limousine Service,11,5.0,,business
+Munhall,"3360 Main St Munhall, PA 15120",-79.9029475,The Dragon Chinese Cuisine,5,3.5,,business
+Homestead,"185 Waterfront Dr W Homestead Homestead, PA 15120",-79.9155451418884,TGI Friday's,19,2.5,,business
+Homestead,"205 East Waterfront Drive Homestead Homestead, PA 15120",-79.9141364,Uno Pizzeria & Grill,41,3.0,,business
+Homestead,"The Waterfront Homestead Homestead, PA 15120",-79.9115741,Bath & Body Works,4,4.5,,business
+Homestead,"229 W Bridge St Homestead Homestead, PA 15120",-79.9177191,Victoria's Secret,3,2.0,,business
+Homestead,"126 West Bridge Street Homestead Homestead, PA 15120",-79.916227,LOFT,3,4.5,,business
+West Homestead,"148 W Bridge St Homestead West Homestead, PA 15120",-79.9158429,P.F. Chang's China Bistro,82,3.0,,business
+Homestead,"112 W Bridge St Homestead Homestead, PA 15120",-79.9160494,Gordon Shoes,6,4.0,PA,business
+West Homestead,"210 W Bridge St Homestead West Homestead, PA 15120",-79.916603,Panera Bread,22,3.0,,business
+Homestead,"2114 West St Homestead Homestead, PA 15120",-79.903166,Munhall Veterinary Hospital,3,3.5,,business
+Homestead,"360 Waterfront Dr E Homestead Homestead, PA 15120",-79.9113203,Target,21,3.5,,business
+Homestead,"324 Amity St Homestead Homestead, PA 15120",-79.91295,Men's Wearhouse,9,2.5,,business
+Munhall,"3502 Main St Munhall, PA 15120",-79.9032997,The Pizza Company,8,3.5,,business
+Homestead,,-79.9064005516943,DSW Designer Shoe Warehouse,5,4.0,,business
+Homestead,,-79.9059313112722,Bed Bath & Beyond,7,3.0,,business
+Homestead,"245 Waterfront Dr E Homestead Homestead, PA 15120",-79.9132525,Eat'n Park,43,3.0,,business
+Homestead,"580 Waterfront Dr E Homestead Homestead, PA 15120",-79.9047005,TJ Maxx,6,4.0,,business
+Homestead,"460 Waterfront Dr E Homestead Homestead, PA 15120",-79.909169,Marshalls,9,3.0,,business
+Pittsburgh/Waterfront,"185 W Waterfront Dr Homestead Pittsburgh/Waterfront, PA 15120",-79.9180894261369,Mitchell's Fish Market,99,3.5,,business
+Homestead,"560 E Waterfront Dr Homestead Homestead, PA 15120",-79.906061,Old Navy,6,3.0,,business
+Homestead,"The Waterfront 350 E Waterfront Dr Homestead Homestead, PA 15120",-79.9075963,Dick's Sporting Goods,7,3.0,,business
+West Mifflin,"1886 Homeville Rd West Mifflin, PA 15122",-79.8737336,Shop 'n Save,3,3.0,,business
+West Mifflin,"1356 Hoffman Blvd West Mifflin, PA 15122",-79.868392,Giant Eagle,3,2.5,,business
+West Mifflin,"Kennywood & Hoffman West Mifflin, PA 15122",-79.8626605,McDonald's,3,1.0,,business
+West Mifflin,"4426 Kennywood Blvd West Mifflin, PA 15122",-79.868305,Michaels,3,4.0,,business
+West Mifflin,"347 Lebanon Rd West Mifflin, PA 15122",-79.9264919,Big Bang Bicycles,16,4.5,,business
+West Mifflin,"1842 Homeville Rd West Mifflin, PA 15122",-79.8737336,Bellisario Pizza Shop,4,3.0,,business
+West Mifflin,"1822 Homeville Rd West Mifflin, PA 15122",-79.8737336,Hunan Wok Chinese Restaurant,4,5.0,,business
+McKeesport,"927 5th Ave McKeesport, PA 15132",-79.8546832,Minerva Bakery,11,5.0,,business
+Mc Kees Rocks,"342 Island Ave Mc Kees Rocks, PA 15136",-80.0599791,Pierogies Plus,33,4.5,PA,business
+McKees Rocks,"301 Chartiers Ave McKees Rocks, PA 15136",-80.0579296,Eat'n Park Restaurant,4,4.0,,business
+McKees Rocks,"719 Broadway Ave McKees Rocks, PA 15136",-80.074153,Broadway Brunch,17,4.5,,business
+Mc Kees Rocks,"824 Chartiers Ave Mc Kees Rocks, PA 15136",-80.0653055,Pasquarelli's Pizza House,12,4.0,,business
+Mc Kees Rocks,"715 Island Ave Mc Kees Rocks, PA 15136",-80.0622046,Island Avenue Tattoo,4,3.5,,business
+McKees Rocks,"6570 Rt 60 Steubenville Pike McKees Rocks, PA 15136",-80.0656106,Applebee's,6,3.5,,business
+McKees Rocks,"1800 McKees Rocks Rd McKees Rocks, PA 15136",-80.097642,Giant Eagle,3,3.5,,business
+Pittsburgh,"4260 Steubenville Pike Pittsburgh, PA 15205",-80.0909106,Sapporo Japanese Steakhouse,7,4.5,,business
+Mc Kees Rocks,"500 Pine Hollow Rd Mc Kees Rocks, PA 15136",-80.0969955,Ricci Italian Sausage,3,4.5,,business
+Pittsburgh,"1122 E Carson St South Side Pittsburgh, PA 15203",-79.9864887,Cindy Esser's Floral Shop,6,3.5,,business
+Bellvue,"421 Lincoln Ave Bellevue Bellvue, PA 15202",-80.0532928,R & B's Pizza Place,14,4.0,,business
+Pittsburgh,"4469 Ohio River Blvd Bellevue Pittsburgh, PA 15202",-80.0605548,Valvoline Instant Oil Change,3,4.5,,business
