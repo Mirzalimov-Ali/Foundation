@@ -1,0 +1,116 @@
+1. Data Preprocessing xaqida gapirib bering
+- Data preprocessing bu umumiy data bilan ishlash. buni 3ta bosqichi bor:
+1. Missing values
+2. Encoding
+3. Scaling
+
+1. Missing values - bu tushurib qoldirilgan qiymatlarni tuldirish jarayoni. yani bizga tushurib qoldirilgan qiymatlarni 5ta usulda tuldiramiz
+- Mean (urta arifmetik buyicha tuldirish)
+- Mode (ustunda eng kup kelgan qiymat bilan tuldirish)
+- Median (ustundi urtasidagi qiymat bilan tuldirish, faqat numerical)
+- Fixed (ruchnoy tuldiramiz yani uzimiz hohlagan narsa bilan)
+- Drop (agar ustunda tushurib qoldirilgan qiymatlar juda kup bulsa ustundi uchirvoramiz)
+
+2. Encoding - Categorical qiymatni numerical qiymatka utkazish, buniham 5 ta usuli bor.
+- One-Hot encoding (har bir class uchun alohida column yasaydi)
+- Label encoding (alifbo tartibida encoding qiladi)
+- Ordinal encoding (categorical qiymatni tartibi yani ketma ketligi buladi)
+- Target encoding (Target qiymat ustunini urta arifmetik usulida Categorical qiymatlarni encoding qiladi)
+- Frequency encoding (ustunda necha marta kelgani bilan encoding qiladi, yani ustunda bitta class necha marta qaytarilganini ustundi obshiy qatoriga buladi)
+
+3. Scaling - Featurelarni orasida juda katta farq bulib ketishni oldini oladigan usul. yani Target qiymatdan tashqari hammasini kichkina qilib quyadi 3ta usuli bor
+- Standard scaling (cheksiz)
+- MinMax scaling (0 dan 1 ni orasi)
+- Robust scaling (cheksiz)
+agar featurelarimiz manfiy bulib ketmaslik kerak bulsa Standard bilan Robustni ishlatmaymiz
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+2. Model Trainingni qanday bosqichlari bor?
+
+1. datani toplaymiz (kaggle, github orqali)
+2. preprocessing qilamiz (missing values, encoding, scaling)
+3. algorithm tanlaymiz (ex: LinearRegression, LogisticRegression)
+4. model test (qancha togri predict qilishini)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+3. Model Training qiling
+
+# model selection
+from sklearn.model_selection import train_test_split
+
+x = df.drop('Price', axis=1)
+y = df['Price']
+
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+
+
+# algorithm tanlash
+from sklearn.linear_model import LinearRegression
+lg = LinearRegression()
+
+
+# training
+lg.fit(x_train, y_train)
+y_predict = lg.predict(x_test)
+
+# test
+from sklearn.metrics import r2_score
+score = r2_score(y_test, y_predict)
+print(score)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+4. Data Preprocessing qiling
+
+# missing values
+def MissingValues(df):
+    for col in df.columns:
+        if df[col].isnull().any():
+            if df[col].dtype == 'object':
+                df[col].fillna(df[col].mode()[0], inplace=True)
+            else:
+                df[col].fillna(df[col].mean(), inplace=True)
+
+
+
+# encoding
+from sklearn.preprocessing import LabelEncoder
+encoder = LabelEncoder()
+
+def Encoding(df):
+    for col in df.columns:
+        if df[col].dtype == 'object':
+            if df[col].nunique() <= 5:
+                dummies = pd.get_dummies(df[col], prefix=col, dtype=int)
+                df = pd.concat([df.drop(columns=[col]), dummies], axis=1)
+            else:
+                df[col] = encoder.fit_transform(df[col].astype(str))
+    return df
+
+
+
+
+# scaling
+from sklearn.preprocessing import MinMaxScaler
+minmax = MinMaxScaler()
+
+def Scaler(df):
+    num_col = df.select_dtypes(include=['float64', 'int64']).columns.drop('Income')
+    df[num_col] = minmax.fit_transform(df[num_col])
+    return df
+
+
+
+
+
+
+
+
